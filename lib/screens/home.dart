@@ -5,13 +5,14 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.orange,
-      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
-      padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 20),
-      child: const Text(
-        "Chalermwut",
-        style: TextStyle(fontSize: 30, letterSpacing: 3),
+    return Center(
+      child: Container(
+        color: Colors.orange,
+        margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+        child: const Text(
+          "Chalermwut",
+          style: TextStyle(fontSize: 30, letterSpacing: 3),
+        ),
       ),
     );
   }
