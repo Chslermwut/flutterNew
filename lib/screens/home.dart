@@ -7,6 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
       Container(
         color: Colors.orange,
