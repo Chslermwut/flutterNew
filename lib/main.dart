@@ -6,9 +6,14 @@ void main() {
       title: "First app",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("HAHA"),
+          title: const Text("My App"),
+          backgroundColor: Colors.blue,
+          centerTitle: true,
         ),
+        body: const Text("Hello Flutter"),
       ),
     ),
   );
 }
+
+
