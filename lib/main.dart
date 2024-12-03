@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_flutter/screens/home.dart';
 
 void main() {
   runApp(
@@ -6,7 +7,7 @@ void main() {
       title: "First app",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("My App"),
+          title: const Text("My Application"),
           backgroundColor: Colors.blue,
           centerTitle: true,
         ),
@@ -16,19 +17,4 @@ void main() {
   );
 }
 
-class Home extends StatelessWidget {
-  const Home({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: Colors.orange,
-      margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
-      padding: const EdgeInsets.symmetric(horizontal: 10,vertical: 20),
-      child: const Text(
-        "Chalermwut",
-        style: TextStyle(fontSize: 30, letterSpacing: 3),
-      ),
-    );
-  }
-}
