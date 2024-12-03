@@ -5,15 +5,35 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+      Container(
         color: Colors.orange,
-        margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
         child: const Text(
           "Chalermwut",
           style: TextStyle(fontSize: 30, letterSpacing: 3),
         ),
       ),
+      Container(
+        color: Colors.orange,
+        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+        child: const Text(
+          "Chalermwut",
+          style: TextStyle(fontSize: 30, letterSpacing: 3),
+        ),
+      ),
+      Container(
+        color: Colors.orange,
+        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+        child: const Text(
+          "Chalermwut",
+          style: TextStyle(fontSize: 30, letterSpacing: 3),
+        ),
+      ),
+      ],
     );
   }
 }
