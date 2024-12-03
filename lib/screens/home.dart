@@ -5,15 +5,14 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
       Container(
         color: Colors.orange,
         padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
         child: const Text(
-          "Chalermwut",
+          "Hello Flutter",
           style: TextStyle(fontSize: 30, letterSpacing: 3),
         ),
       ),
@@ -21,7 +20,7 @@ class Home extends StatelessWidget {
         color: Colors.orange,
         padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
         child: const Text(
-          "Chalermwut",
+          "Hello Flutter",
           style: TextStyle(fontSize: 30, letterSpacing: 3),
         ),
       ),
@@ -29,7 +28,7 @@ class Home extends StatelessWidget {
         color: Colors.orange,
         padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
         child: const Text(
-          "Chalermwut",
+          "Hello Flutter",
           style: TextStyle(fontSize: 30, letterSpacing: 3),
         ),
       ),
