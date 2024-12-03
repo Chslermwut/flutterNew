@@ -5,34 +5,9 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      crossAxisAlignment: CrossAxisAlignment.stretch,
+    return Column(
       children: [
-      Container(
-        color: Colors.orange,
-        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-        child: const Text(
-          "Hello Flutter",
-          style: TextStyle(fontSize: 30, letterSpacing: 3),
-        ),
-      ),
-      Container(
-        color: Colors.orange,
-        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-        child: const Text(
-          "Hello Flutter",
-          style: TextStyle(fontSize: 30, letterSpacing: 3),
-        ),
-      ),
-      Container(
-        color: Colors.orange,
-        padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
-        child: const Text(
-          "Hello Flutter",
-          style: TextStyle(fontSize: 30, letterSpacing: 3),
-        ),
-      ),
+      Image.network('https://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
       ],
     );
   }
