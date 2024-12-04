@@ -11,16 +11,30 @@ class Home extends StatelessWidget {
         children: [
           TextButton(
             onPressed: (){
-              print("Button!!");
+              print("Text Button");
             },
-             child: const Text("Click",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
+             child: const Text("Text Button",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
              ),
              const SizedBox(height: 10,),
              FilledButton(
               onPressed: (){
-                print("Button size!!");
+                print("Filled");
               }, 
-              child: const Text("Click",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
+              child: const Text("Filled",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
+              ),
+              const SizedBox(height: 10,),
+             OutlinedButton(
+              onPressed: (){
+                print("Outlined");
+              }, 
+              child: const Text("Outlined",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
+              ),
+               const SizedBox(height: 10,),
+             ElevatedButton(
+              onPressed: (){
+                print("Elevated");
+              }, 
+              child: const Text("Elevated",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),)
               )
         ],
         ),
